@@ -168,12 +168,12 @@ export default function LandingPage() {
 
                 {/* Hero Content */}
                 <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <Badge className="mb-4 sm:mb-6 bg-gradient-to-r from-orange-800/80 to-amber-800/80 text-orange-200 border-orange-600 text-xs sm:text-sm">
+                    <Badge className="mb-4 sm:mb-6 bg-gradient-to-r from-orange-800/80 to-amber-950/80 text-orange-200 border-orange-600 text-xs sm:text-sm">
                         <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
                         Discover Indonesian Heritage
                     </Badge>
 
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-orange-400 via-amber-400 to-orange-300 bg-clip-text text-transparent leading-tight">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-orange-500 via-amber-400 to-orange-300 bg-clip-text text-transparent leading-tight">
                         Suara Nusa
                     </h1>
 
@@ -387,9 +387,9 @@ export default function LandingPage() {
                         Ready to Explore Indonesian Culture?
                     </h2>
                     <p className="text-lg sm:text-xl text-orange-100 mb-6 sm:mb-8 max-w-2xl mx-auto">
-                        Join thousands of learners discovering the rich heritage
-                        of Indonesia through our innovative platform combining
-                        tradition with technology.
+                        Join us, in discovering the rich heritage of Indonesia
+                        through our innovative platform combining tradition with
+                        technology.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center max-w-md sm:max-w-none mx-auto">
                         <Button
