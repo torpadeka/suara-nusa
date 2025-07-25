@@ -391,7 +391,7 @@ export default function NusatechPage() {
                                             : fetchSpeechRecords
                                     }
                                     disabled={isLoading}
-                                    className={`border-${dashboardColor}-300 text-${dashboardColor}-200 hover:bg-${dashboardColor}-900/20`}
+                                    className={`border-${dashboardColor}-300 text-black hover:bg-zinc-300`}
                                 >
                                     <RefreshCw
                                         className={`w-4 h-4 mr-2 ${
@@ -408,7 +408,7 @@ export default function NusatechPage() {
                                         isGeneratingGlossary ||
                                         currentData.length === 0
                                     }
-                                    className={`border-${dashboardColor}-300 text-${dashboardColor}-200 hover:bg-${dashboardColor}-900/20`}
+                                    className={`border-${dashboardColor}-300 text-black hover:bg-zinc-300`}
                                 >
                                     <BookOpen
                                         className={`w-4 h-4 mr-2 ${
@@ -425,7 +425,7 @@ export default function NusatechPage() {
                                     variant="outline"
                                     size="sm"
                                     onClick={clearDay}
-                                    className={`border-red-300 text-red-200 hover:bg-red-900/20`}
+                                    className={`text-red-500 hover:bg-zinc-300`}
                                 >
                                     <Trash2 className="w-4 h-4 mr-2" />
                                     Clear Day

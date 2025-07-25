@@ -1,0 +1,276 @@
+[
+  {
+    "provinsi": "Aceh",
+    "lat": 5.5502,
+    "lng": 95.3193
+  },
+  {
+    "provinsi": "Sumatera Utara",
+    "lat": 3.5952,
+    "lng": 98.6722
+  },
+  {
+    "provinsi": "Sumatera Barat",
+    "lat": -0.9471,
+    "lng": 100.4172
+  },
+  {
+    "provinsi": "Riau",
+    "lat": 0.5071,
+    "lng": 101.4478
+  },
+  {
+    "provinsi": "Jambi",
+    "lat": -1.6100,
+    "lng": 103.6131
+  },
+  {
+    "provinsi": "Sumatera Selatan",
+    "lat": -3.3194,
+    "lng": 104.9147,
+    "pic": "https://localisesdgs-indonesia.org/asset/img/core/stakeholder/4276c2aeda78a33a50fe9c4841d70f3c.png",
+    "deskripsi_singkat": "Sumatera Selatan adalah provinsi yang kaya akan sejarah dan budaya, dengan Palembang sebagai ibu kotanya. Kota ini pernah menjadi pusat Kerajaan Sriwijaya yang berjaya di Asia Tenggara. Budaya Melayu yang kuat tercermin dalam berbagai seni, kuliner, dan adat istiadat di wilayah ini. Sungai Musi menjadi ikon provinsi ini, menyatukan kehidupan masyarakat dari berbagai daerah. Pempek adalah makanan khas yang sudah terkenal secara nasional dan internasional. Lagu-lagu tradisional dan tarian seperti Gending Sriwijaya menggambarkan keagungan masa lalu. Pakaian adat Aesan Gede menggambarkan kemewahan kerajaan zaman dahulu dan masih digunakan dalam upacara adat. Masyarakat Sumsel sangat menjunjung tinggi adat dan kebersamaan.",
+    "ibukota": "Palembang",
+    "total_kecamatan": 250,
+    "total_kabupaten_kota": {
+      "kota": 4,
+      "kabupaten": 13
+    },
+    "gubernur": "Herman Deru",
+    "wakil_gubernur": "Cik Ujang",
+    "makanan_tradisional": [
+      {
+        "nama": "Pempek",
+        "pic": "https://kerispy.com/wp-content/uploads/2022/06/Satu-Mangkuk-Pempek-950-x-634px.jpg"
+      },
+      {
+        "nama": "Tekwan",
+        "pic": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/17030726/X-Resep-Tekwan-untuk-Sarapan-Bantu-Aktivitas-Lancar-Seharian-.jpg"
+      },
+      {
+        "nama": "Model",
+        "pic": "https://indonesiakaya.com/wp-content/uploads/2020/10/1__IMG_3990_Selain_Mpek-mpek_Model_merupakan_kuliner_khas_Palembang_yang_juga_terbuat_dari_bahan_utama_ikan_tenggiri.jpg"
+      }
+    ],
+    "lagu_tradisional": [
+      {
+        "nama": "Gending Sriwijaya",
+        "pic": "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/959/2024/01/29/gending-sriwijaya-oke-2925864537.jpg"
+      },
+      {
+        "nama": "Dek Sangke",
+        "pic": "https://i.ytimg.com/vi/aGGFDYPWawM/maxresdefault.jpg"
+      },
+      {
+        "nama": "Cuk Mak Ilang",
+        "pic": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50xPO1VBFI3iz4XggJqtN2Ar6Qwrhm_Hq_cQwJ_-oSiDVfF4pC1a99e6MA4DqALSpjjGqCA_DuJWWQTlzkjMVuJzufyaJtnPf2o0Q6Y5MlhXNJbj11Ixj2a8BrX6i-PVJ-8RtZLP1RNY/s942/Cup+Mak+Ilang+Angka+baru+PNG.png"
+      }
+    ],
+    "pakaian_tradisional": [
+      {
+        "nama": "Aesan Gede",
+        "pic": "https://backpackerjakarta.com/wp-content/uploads/2018/02/Gambar-Aesan-Gede-Pria-dan-Wanita-1.jpg"
+      },
+      {
+        "nama": "Aesan Paksangko",
+        "pic": "https://gpriority.co.id/wp-content/uploads/2020/10/Pakaian-Adat.jpg"
+      },
+      {
+        "nama": "Pakaian Pengantin Palembang",
+        "pic": "https://siapnikah.org/wp-content/uploads/2022/12/321049912_3463533043883366_5652761821209725005_n.jpg"
+      }
+    ]
+  },
+  {
+    "provinsi": "Bengkulu",
+    "lat": -3.8004,
+    "lng": 102.2655
+  },
+  {
+    "provinsi": "Lampung",
+    "lat": -5.3971,
+    "lng": 105.2668
+  },
+  {
+    "provinsi": "Kepulauan Bangka Belitung",
+    "lat": -2.7411,
+    "lng": 106.4406
+  },
+  {
+    "provinsi": "Kepulauan Riau",
+    "lat": 3.9457,
+    "lng": 108.1429
+  },
+  {
+    "provinsi": "DKI Jakarta",
+    "lat": -6.2088,
+    "lng": 106.8456,
+    "pic": "https://indonesiavirtualtour.com/storage/explore_province/images/LOv84pfXrB0YScdcRm9Ss3jx5t0syBuH0zUqsJB1.png",
+    "deskripsi_singkat": "DKI Jakarta adalah ibu kota negara Indonesia yang menjadi pusat politik, ekonomi, dan kebudayaan. Wilayah ini memiliki akar budaya Betawi yang sangat khas dan mewarnai kehidupan masyarakat sehari-hari. Selain terkenal dengan lalu lintas padat dan gedung pencakar langit, Jakarta juga menyimpan sejarah panjang sejak masa kolonial. Seni budaya seperti musik, pakaian adat, hingga kuliner Betawi masih lestari hingga kini. Tradisi-tradisi seperti lenong dan ondel-ondel masih menjadi bagian dari identitas lokal. Pemerintah provinsi aktif mengangkat kembali kearifan lokal melalui berbagai festival budaya. Jakarta juga menjadi tempat pertemuan beragam budaya dari seluruh Indonesia.",
+    "ibukota": "Jakarta Pusat",
+    "total_kecamatan": 44,
+    "total_kabupaten_kota": {
+      "kota": 5,
+      "kabupaten_administratif": 1
+    },
+    "gubernur": "Pramono Agung",
+    "wakil_gubernur": "Rano Karno",
+    "makanan_tradisional": [
+      {
+        "nama": "Kerak Telor",
+        "pic": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kerak_telor_Betawi.jpg"
+      },
+      {
+        "nama": "Soto Betawi",
+        "pic": "https://www.unileverfoodsolutions.co.id/dam/global-ufs/mcos/SEA/calcmenu/recipes/ID-recipes/soups/soto-betawi/main-header.jpg"
+      },
+      {
+        "nama": "Asinan Betawi",
+        "pic": "https://asset.kompas.com/crops/qwzSUFleBNd0bfxW7o3k530pcMI=/0x0:1000x667/1200x800/data/photo/2021/05/12/609b533590600.jpg"
+      }
+    ],
+    "lagu_tradisional": [
+      {
+        "nama": "Kicir-Kicir",
+        "pic": "https://static.promediateknologi.id/crop/81x49:861x1009/0x0/webp/photo/p2/183/2024/07/08/lirik-lagu-kicir-kicir-3716207536.png"
+      },
+      {
+        "nama": "Ondel-Ondel",
+        "pic": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ondel_-_Ondel.jpg"
+      },
+      {
+        "nama": "Jali-Jali",
+        "pic": "https://i.ytimg.com/vi/qVTUEBODhZ0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLATfuYMKgiW8j-KHH_bnsvGOv8yjQ"
+      }
+    ],
+    "pakaian_tradisional": [
+      {
+        "nama": "Baju Sadariah",
+        "pic": "https://storage.jakarta-tourism.go.id/public/images/article/16143660551664200565.jpg"
+      },
+      {
+        "nama": "Kebaya Encim",
+        "pic": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2023/6/16/ee3bdcda-000e-432b-b0a3-76cd38ceb9c4.jpg"
+      },
+      {
+        "nama": "Pakaian Abang None",
+        "pic": "https://i.pinimg.com/736x/59/3d/26/593d26bab3523f71ad09f7d8930908bb.jpg"
+      }
+    ]
+  },
+  {
+    "provinsi": "Jawa Barat",
+    "lat": -6.9039,
+    "lng": 107.6186
+  },
+  {
+    "provinsi": "Jawa Tengah",
+    "lat": -7.0051,
+    "lng": 110.4381
+  },
+  {
+    "provinsi": "DI Yogyakarta",
+    "lat": -7.7956,
+    "lng": 110.3695
+  },
+  {
+    "provinsi": "Jawa Timur",
+    "lat": -7.2504,
+    "lng": 112.7688
+  },
+  {
+    "provinsi": "Banten",
+    "lat": -6.4058,
+    "lng": 106.0640
+  },
+  {
+    "provinsi": "Bali",
+    "lat": -8.4095,
+    "lng": 115.1889
+  },
+  {
+    "provinsi": "Nusa Tenggara Barat",
+    "lat": -8.6529,
+    "lng": 117.3616
+  },
+  {
+    "provinsi": "Nusa Tenggara Timur",
+    "lat": -9.8627,
+    "lng": 124.5421
+  },
+  {
+    "provinsi": "Kalimantan Barat",
+    "lat": 0.1322,
+    "lng": 111.0969
+  },
+  {
+    "provinsi": "Kalimantan Tengah",
+    "lat": -1.6815,
+    "lng": 113.3824
+  },
+  {
+    "provinsi": "Kalimantan Selatan",
+    "lat": -3.3194,
+    "lng": 114.5908
+  },
+  {
+    "provinsi": "Kalimantan Timur",
+    "lat": 0.5383,
+    "lng": 116.4194
+  },
+  {
+    "provinsi": "Kalimantan Utara",
+    "lat": 3.0731,
+    "lng": 117.2898
+  },
+  {
+    "provinsi": "Sulawesi Utara",
+    "lat": 1.4927,
+    "lng": 124.8421
+  },
+  {
+    "provinsi": "Sulawesi Tengah",
+    "lat": -1.4300,
+    "lng": 121.4456
+  },
+  {
+    "provinsi": "Sulawesi Selatan",
+    "lat": -5.1477,
+    "lng": 119.4327
+  },
+  {
+    "provinsi": "Sulawesi Tenggara",
+    "lat": -4.1449,
+    "lng": 122.1746
+  },
+  {
+    "provinsi": "Gorontalo",
+    "lat": 0.6999,
+    "lng": 122.4467
+  },
+  {
+    "provinsi": "Sulawesi Barat",
+    "lat": -2.8449,
+    "lng": 119.2321
+  },
+  {
+    "provinsi": "Maluku",
+    "lat": -3.2385,
+    "lng": 130.1453
+  },
+  {
+    "provinsi": "Maluku Utara",
+    "lat": 1.5700,
+    "lng": 127.8088
+  },
+  {
+    "provinsi": "Papua",
+    "lat": -4.2699,
+    "lng": 138.0804
+  },
+  {
+    "provinsi": "Papua Barat",
+    "lat": -1.3361,
+    "lng": 133.1747
+  }
+]
