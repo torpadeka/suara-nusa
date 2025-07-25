@@ -50,15 +50,6 @@ export async function POST(request: NextRequest) {
 
 export async function GET(request: NextRequest) {
     try {
-        const token = request.cookies.get("token")?.value;
-
-        if (!token) {
-            return NextResponse.json(
-                { error: "Not authenticated" },
-                { status: 401 }
-            );
-        }
-
         const url = new URL(request.url);
         const dateParam = url.searchParams.get("date");
 
@@ -96,15 +87,6 @@ export async function GET(request: NextRequest) {
 
 export async function DELETE(request: NextRequest) {
     try {
-        const token = request.cookies.get("token")?.value;
-
-        if (!token) {
-            return NextResponse.json(
-                { error: "Not authenticated" },
-                { status: 401 }
-            );
-        }
-
         const url = new URL(request.url);
         const dateParam = url.searchParams.get("date");
 
