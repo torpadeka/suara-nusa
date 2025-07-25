@@ -55,6 +55,27 @@ export default function NusatechPage() {
     const [showGlossary, setShowGlossary] = useState(false);
     const [isGeneratingGlossary, setIsGeneratingGlossary] = useState(false);
 
+    useEffect(() => {
+        // 1. Do nothing if a dashboard hasn't been selected yet
+        if (currentView === "selection") {
+            return;
+        }
+
+        // 2. Set up an interval to fetch data every 3 seconds
+        const intervalId = setInterval(() => {
+            if (currentView === "english") {
+                fetchNotes();
+            } else if (currentView === "local") {
+                fetchSpeechRecords();
+            }
+        }, 3000); // 3000 milliseconds = 3 seconds
+
+        // 3. Cleanup: clear the interval when the view changes or component unmounts
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, [currentView, currentDate]);
+
     // Fetch data based on current view and date
     useEffect(() => {
         if (currentView === "english") {
