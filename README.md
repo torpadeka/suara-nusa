@@ -95,3 +95,7 @@ NEXT_PUBLIC_FIREBASE_PROJECT_ID="YOUR_FIREBASE_PROJECT_ID"
 ... and other Firebase credentials
 
 And enjoy our applications!
+
+## AI Attributions
+
+This project was made with help from v0 and Gemini.
