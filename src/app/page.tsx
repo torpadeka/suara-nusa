@@ -115,7 +115,7 @@ export default function LandingPage() {
                         >
                             Features
                         </a>
-                        <a
+                        {/* <a
                             href="#about"
                             className="text-orange-200 hover:text-orange-400 transition-all duration-300 hover:scale-105"
                         >
@@ -126,7 +126,7 @@ export default function LandingPage() {
                             className="text-orange-200 hover:text-orange-400 transition-all duration-300 hover:scale-105"
                         >
                             Contact
-                        </a>
+                        </a> */}
                         <Button className="bg-gradient-to-r from-orange-600 to-amber-700 hover:from-orange-700 hover:to-amber-800 text-white text-sm lg:text-base px-4 lg:px-6 transform hover:scale-105 transition-all duration-300">
                             Get Started
                         </Button>
