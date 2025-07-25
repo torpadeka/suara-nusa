@@ -1,4 +1,4 @@
-// this is the IoT code
+// IoT code
 
 #include <WiFi.h>
 #include <HTTPClient.h> // Library ini masih digunakan untuk parsing URL
