@@ -98,4 +98,4 @@ And enjoy our applications!
 
 ## AI Attributions
 
-This project was made with help from v0 and Gemini.
+**This project was made with help from v0 and Gemini.**
