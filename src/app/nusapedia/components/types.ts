@@ -74,7 +74,7 @@ export interface SidebarData {
     title: string;
     data: Province | Kingdom | ColonialEvent | null;
     status: "success" | "not_found" | "unsupported";
-    type: "provinsi" | "kerajaan" | "penjajahan";
+    type: "sekarang" | "kerajaan" | "penjajahan";
 }
 
 export interface ChatMessage {

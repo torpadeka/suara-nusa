@@ -34,6 +34,7 @@ import {
     Zap,
 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HomePage() {
     const [currentTime, setCurrentTime] = useState(new Date());
@@ -85,7 +86,13 @@ export default function HomePage() {
                     <div className="container mx-auto px-4 py-4 flex items-center justify-between">
                         <div className="flex items-center space-x-3">
                             <div className="w-10 h-10 bg-gradient-to-br from-orange-600 to-amber-700 rounded-xl flex items-center justify-center">
-                                <Globe className="w-6 h-6 text-white" />
+                                <Image
+                                    src="/suara-nusa.png"
+                                    alt=""
+                                    width={50}
+                                    height={50}
+                                    className="rounded-lg"
+                                />
                             </div>
                             <div>
                                 <h1 className="text-xl font-bold text-orange-100">
@@ -419,7 +426,9 @@ export default function HomePage() {
                             <CardHeader>
                                 <CardTitle className="flex items-center space-x-2">
                                     <Clock className="w-5 h-5 text-orange-600" />
-                                    <span className="text-white">Recent Activity</span>
+                                    <span className="text-white">
+                                        Recent Activity
+                                    </span>
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-4">
@@ -490,7 +499,9 @@ export default function HomePage() {
                             <CardHeader>
                                 <CardTitle className="flex items-center space-x-2">
                                     <Sparkles className="w-5 h-5 text-orange-600" />
-                                    <span className="text-white">Quick Actions</span>
+                                    <span className="text-white">
+                                        Quick Actions
+                                    </span>
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-4">

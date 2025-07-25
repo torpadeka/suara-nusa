@@ -64,9 +64,7 @@ export const MapComponent: React.FC<MapComponentProps> = ({
     onMarkerClick,
 }) => {
     // Filter out markers with undefined or missing id
-    const validMarkers = visibleMarkers.filter(
-        (item) => item.id != null && item.id !== ""
-    );
+    const validMarkers = visibleMarkers;
 
     return (
         <MapContainer
@@ -83,9 +81,9 @@ export const MapComponent: React.FC<MapComponentProps> = ({
                     style={polygonStyle}
                 />
             )}
-            {validMarkers.map((item) => (
+            {validMarkers.map((item, index) => (
                 <Marker
-                    key={`marker-${item.id}`}
+                    key={`marker-${index}`}
                     position={[item.lat, item.lng]}
                     eventHandlers={{ click: () => onMarkerClick(item) }}
                 >

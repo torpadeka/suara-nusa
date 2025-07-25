@@ -101,7 +101,13 @@ export default function LandingPage() {
                 <div className="container mx-auto px-4 py-4 flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                         <div className="w-8 h-8 bg-gradient-to-br from-orange-600 to-amber-700 rounded-lg flex items-center justify-center transform hover:rotate-12 transition-transform duration-300">
-                            <Globe className="w-5 h-5 text-white" />
+                            <Image
+                                src="/suara-nusa.png"
+                                alt=""
+                                width={50}
+                                height={50}
+                                className="rounded-lg"
+                            />
                         </div>
                         <span className="text-lg sm:text-xl font-bold text-orange-100">
                             Suara Nusa
@@ -569,7 +575,13 @@ export default function LandingPage() {
                         <div className="sm:col-span-2 lg:col-span-1">
                             <div className="flex items-center space-x-2 mb-4">
                                 <div className="w-8 h-8 bg-gradient-to-br from-orange-600 to-amber-700 rounded-lg flex items-center justify-center transform hover:rotate-12 transition-transform duration-300">
-                                    <Globe className="w-5 h-5 text-white" />
+                                    <Image
+                                        src="/suara-nusa.png"
+                                        alt=""
+                                        width={50}
+                                        height={50}
+                                        className="rounded-lg"
+                                    />
                                 </div>
                                 <span className="text-lg sm:text-xl font-bold">
                                     Suara Nusa
