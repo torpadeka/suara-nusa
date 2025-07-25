@@ -26,6 +26,7 @@ import {
     X,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function LandingPage() {
     const [scrollY, setScrollY] = useState(0);
@@ -109,24 +110,30 @@ export default function LandingPage() {
 
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-                        <a
-                            href="#features"
+                        <Link
+                            href="/home"
                             className="text-orange-200 hover:text-orange-400 transition-all duration-300 hover:scale-105"
                         >
-                            Features
-                        </a>
-                        {/* <a
-                            href="#about"
+                            Home
+                        </Link>
+                        <Link
+                            href="/nusalingua"
                             className="text-orange-200 hover:text-orange-400 transition-all duration-300 hover:scale-105"
                         >
-                            About
-                        </a>
-                        <a
-                            href="#contact"
+                            Nusalingua
+                        </Link>
+                        <Link
+                            href="/nusapedia"
                             className="text-orange-200 hover:text-orange-400 transition-all duration-300 hover:scale-105"
                         >
-                            Contact
-                        </a> */}
+                            Nusapedia
+                        </Link>
+                        <Link
+                            href="/nusatech"
+                            className="text-orange-200 hover:text-orange-400 transition-all duration-300 hover:scale-105"
+                        >
+                            Nusatech
+                        </Link>
                         <Button className="bg-gradient-to-r from-orange-600 to-amber-700 hover:from-orange-700 hover:to-amber-800 text-white text-sm lg:text-base px-4 lg:px-6 transform hover:scale-105 transition-all duration-300">
                             Get Started
                         </Button>
@@ -154,27 +161,34 @@ export default function LandingPage() {
                     }`}
                 >
                     <div className="container mx-auto px-4 py-4 space-y-4">
-                        <a
-                            href="#features"
+                        <Link
+                            href="/home"
                             className="block text-orange-200 hover:text-orange-400 transition-colors py-2 transform hover:translate-x-2 duration-300"
                             onClick={() => setMobileMenuOpen(false)}
                         >
-                            Features
-                        </a>
-                        <a
-                            href="#about"
+                            Home
+                        </Link>
+                        <Link
+                            href="/nusalingua"
                             className="block text-orange-200 hover:text-orange-400 transition-colors py-2 transform hover:translate-x-2 duration-300"
                             onClick={() => setMobileMenuOpen(false)}
                         >
-                            About
-                        </a>
-                        <a
-                            href="#contact"
+                            Nusalingua
+                        </Link>
+                        <Link
+                            href="/nusapedia"
                             className="block text-orange-200 hover:text-orange-400 transition-colors py-2 transform hover:translate-x-2 duration-300"
                             onClick={() => setMobileMenuOpen(false)}
                         >
-                            Contact
-                        </a>
+                            Nusapedia
+                        </Link>
+                        <Link
+                            href="/nusatech"
+                            className="block text-orange-200 hover:text-orange-400 transition-colors py-2 transform hover:translate-x-2 duration-300"
+                            onClick={() => setMobileMenuOpen(false)}
+                        >
+                            Nusatech
+                        </Link>
                         <Button className="w-full bg-gradient-to-r from-orange-600 to-amber-700 hover:from-orange-700 hover:to-amber-800 text-white mt-4 transform hover:scale-105 transition-all duration-300">
                             Get Started
                         </Button>
@@ -341,7 +355,7 @@ export default function LandingPage() {
                                     <Languages className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                                 </div>
                                 <CardTitle className="text-xl sm:text-2xl text-orange-100">
-                                    Interactive Language Learning
+                                    Nusalingua
                                 </CardTitle>
                                 <CardDescription className="text-sm sm:text-base text-orange-200">
                                     Master local Indonesian languages like
@@ -393,7 +407,7 @@ export default function LandingPage() {
                                     <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                                 </div>
                                 <CardTitle className="text-xl sm:text-2xl text-orange-100">
-                                    Cultural Knowledge Base
+                                    Nusapedia
                                 </CardTitle>
                                 <CardDescription className="text-sm sm:text-base text-orange-200">
                                     Comprehensive Wikipedia-style database of
@@ -447,7 +461,7 @@ export default function LandingPage() {
                                     <Cpu className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                                 </div>
                                 <CardTitle className="text-xl sm:text-2xl text-orange-100">
-                                    IoT Cultural Dashboard
+                                    Nusatech
                                 </CardTitle>
                                 <CardDescription className="text-sm sm:text-base text-orange-200">
                                     Real-time cultural language translation
@@ -457,7 +471,7 @@ export default function LandingPage() {
                             <CardContent className="space-y-4 px-4 sm:px-6">
                                 <div className="relative h-40 sm:h-48 rounded-lg overflow-hidden">
                                     <Image
-                                        src="/placeholder.svg?height=200&width=300&text=IoT+Dashboard"
+                                        src="/iot.jpg"
                                         alt="IoT Dashboard"
                                         fill
                                         className="object-cover group-hover:scale-110 transition-transform duration-500"

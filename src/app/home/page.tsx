@@ -195,7 +195,7 @@ export default function HomePage() {
                                 </div>
                                 <div className="space-y-2">
                                     <div className="flex justify-between text-sm">
-                                        <span className="text-emerald-100">
+                                        <span className="text-white">
                                             Lessons Completed
                                         </span>
                                         <span className="font-semibold text-white">
@@ -203,7 +203,7 @@ export default function HomePage() {
                                         </span>
                                     </div>
                                     <div className="flex justify-between text-sm">
-                                        <span className="text-emerald-100">
+                                        <span className="text-white">
                                             Cultural Articles
                                         </span>
                                         <span className="font-semibold text-white">
@@ -326,7 +326,7 @@ export default function HomePage() {
                                         <CardTitle className="text-2xl font-bold">
                                             Nusapedia
                                         </CardTitle>
-                                        <CardDescription className="text-emerald-100">
+                                        <CardDescription className="text-white">
                                             Explore the rich tapestry of
                                             Indonesian culture and traditions
                                         </CardDescription>
@@ -336,14 +336,14 @@ export default function HomePage() {
                                         <div className="space-y-2">
                                             <div className="flex items-center space-x-2">
                                                 <MapPin className="w-4 h-4 text-emerald-200" />
-                                                <span className="text-sm text-emerald-100">
+                                                <span className="text-sm text-white">
                                                     34 Provinces • 1,340+
                                                     Articles
                                                 </span>
                                             </div>
                                             <div className="flex items-center space-x-2">
                                                 <Users className="w-4 h-4 text-emerald-200" />
-                                                <span className="text-sm text-emerald-100">
+                                                <span className="text-sm text-white">
                                                     Community Contributions
                                                 </span>
                                             </div>
@@ -352,7 +352,7 @@ export default function HomePage() {
                                         <div className="flex items-center justify-between">
                                             <div className="flex items-center space-x-2">
                                                 <Sparkles className="w-4 h-4 text-emerald-200" />
-                                                <span className="text-sm text-emerald-100">
+                                                <span className="text-sm text-white">
                                                     Featured: Batik History
                                                 </span>
                                             </div>
