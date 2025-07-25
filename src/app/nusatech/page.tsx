@@ -225,7 +225,7 @@ export default function NusatechPage() {
                                         <Globe className="w-10 h-10 text-white" />
                                     </div>
                                     <CardTitle className="text-2xl font-bold text-blue-100">
-                                        International Dashboard
+                                        English Dashboard
                                     </CardTitle>
                                     <p className="text-blue-200">
                                         Access your English speech-to-text
